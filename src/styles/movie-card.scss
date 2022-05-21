@@ -6,6 +6,7 @@
     height: 21.25rem;
   }
 
+
   > div {
     position: absolute;
     top: 0;
@@ -17,7 +18,10 @@
     justify-content: center;
 
     background: rgba(31, 34, 41, 0.5);
-
+    transition: background .2s;
+    &:hover{
+      background: transparent;
+    }
     .movie-info {
       max-width: 12.31rem;
       width: 100%;
